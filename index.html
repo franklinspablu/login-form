@@ -5,31 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>Iniciar Sesión</title>
 </head>
 <body>
-    <form action="action_page.php" method="post">
-        <div class="imgcontainer">
-          <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        <div class="inFormBackground">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="inLoginForm">
+            <form onsubmit="" class="return false">
+              <div class="title">
+                <h2>Iniciar sesión</h2>
+              </div>
+              <div class="inputGroup">
+                <label for="email">Email</label>
+                <input type="email" autocomplete="off" placeholder="Enter Email" id="email">
+
+              </div>
+
+              <div class="inputGroup">
+                <label for="password">Password</label>
+                <input type="password" autocomplete="off" placeholder="Enter Password" id="password">              
+              </div>
+              <button class="submitForm">Sign In</button>
+              <div class="social">
+                <div class="go"><i class="fab fa-google"></i></div>
+                <div class="fb"><i class="fab fa-facebook"></i></div>
+
+                <div class="tw"><i class="fab fa-twitter"></i></div>
+
+              </div>
+
+              </form>
         </div>
-      
-        <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-      
-          <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-          </label>
-        </div>
-      
-        <div class="container" style="background-color:#f1f1f1">
-          <button type="button" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-      </form>
+    </div>
 </body>
 </html>
