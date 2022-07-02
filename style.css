@@ -10,6 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #afa7a7;
+  background: url(cover.jpg) no-repeat center center fixed;
 }
 
 .inFormBackground {
@@ -77,6 +78,11 @@ form * {
 
 ::placeholder {
   color: #e5e5e5;
+}
+
+.pass {
+  margin-top: 6px;
+  font-size: 14px;
 }
 
 .submitForm {
