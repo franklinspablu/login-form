@@ -7,38 +7,46 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-    <title>Iniciar Sesión</title>
+    <title>Log In</title>
 </head>
 <body>
-        <div class="inFormBackground">
+  <div class="inFormBackground">
           <div class="circle"></div>
           <div class="circle"></div>
           <div class="inLoginForm">
-            <form onsubmit="" class="return false">
-              <div class="title">
-                <h2>Iniciar sesión</h2>
-              </div>
-              <div class="inputGroup">
-                <label for="email">Email</label>
-                <input type="email" autocomplete="off" placeholder="Enter Email" id="email">
+      <form onsubmit="" class="return false">
+          <div class="title">
+          <h2>Log In</h2>
+          </div>
+          <div class="inputGroup">
+          <label for="email">Email</label>
+          <input type="email" required>
+          </div>
+          <div class="inputGroup">
+          <label for="password">Password</label> 
+          <input type="password" required>             
+          </div>
+          <div class="content">
+           <div class="checkbox">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember me</label>
+           </div>
+           <div class="pass-link">
+              <a href="#">Forgot password?</a>
+           </div>
+          </div>
 
-              </div>
 
-              <div class="inputGroup">
-                <label for="password">Password</label>
-                <input type="password" autocomplete="off" placeholder="Enter Password" id="password">              
-              </div>
-              <button class="submitForm">Sign In</button>
-              <div class="social">
-                <div class="go"><i class="fab fa-google"></i></div>
-                <div class="fb"><i class="fab fa-facebook"></i></div>
-
-                <div class="tw"><i class="fab fa-twitter"></i></div>
-
-              </div>
-
-              </form>
-        </div>
+          <button class="submitForm">Sign In</button>
+          <div class="social">
+          <div class="go"><i class="fab fa-google"><a href="http://www.google.com"></a></i></div>
+          <div class="fb"><i class="fab fa-facebook"></i></div>
+          <div class="tw"><i class="fab fa-twitter"></i></div>
+          </div>
+          <div class="signup-link">Not a member? <a href="#">Sign up now</a>
+         </div>
+      <form>
     </div>
+  </div>
 </body>
 </html>
