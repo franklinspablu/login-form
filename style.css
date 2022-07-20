@@ -109,8 +109,8 @@ form .content {
   font-weight: 500;
   color: #b3b3b3;
   margin: auto;
-  justify-content: left;
-  justify-content: left;
+  justify-content: center;
+  align-items: space-between;
 }
 form .remember-me {
   justify-content: flex-start;
