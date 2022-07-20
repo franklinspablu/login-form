@@ -58,11 +58,11 @@ form * {
 }
 
 .sub-title {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 22px;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 
