@@ -57,6 +57,15 @@ form * {
   text-align: center;
 }
 
+.sub-title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+
 .inputGroup label {
   display: block;
   margin-top: 30px;
