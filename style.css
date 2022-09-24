@@ -10,7 +10,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: #f2f2f2;
+  background: #4158d0;
   /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
 }
 ::selection{
@@ -28,10 +28,10 @@ html,body{
   font-weight: 600;
   text-align: center;
   line-height: 100px;
-  color: #fff;
+  color: #4158d0;
   user-select: none;
   border-radius: 6px 6px 0 0;
-  background: #3248b5;
+  background: #ffffff;
 }
 
 .wrapper form{
